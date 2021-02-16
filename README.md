@@ -1,1 +1,1 @@
-# rsschool-cv
+https://chupina.github.io/rsschool-cv/
