@@ -1,1 +1,1 @@
-https://chupina.github.io/rsschool-cv/cv
+https://chupina.github.io/rsschool-cv/index.html
