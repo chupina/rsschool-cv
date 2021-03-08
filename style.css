@@ -4,7 +4,7 @@
 
 body {
   
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(233, 247, 250);
  
 }
 .wrapper {
@@ -67,7 +67,7 @@ h3{
    font-size: 1.6rem;
    letter-spacing: 1px;
    border-top: 2px solid  rgb(163, 160, 160);
-   color:rgb(190, 25, 3)
+   color: rgb(206, 43, 43);
 }
 h4{display: none;}
 section{
@@ -84,7 +84,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 20px 50px;
-  background-color: rgba(122, 83, 54, 0.281);
+  background-color:rgba(163, 41, 4, 0.513);
 }
 nav{
   width: 100%;
@@ -179,6 +179,7 @@ figure img{
 }
  time {
    padding: 20px;
+   font-size: 1.2rem;
  }
 
   
@@ -190,7 +191,7 @@ figure img{
     width: 2rem; 
     margin-left: -2rem; 
   }
-  .language>ul>ul>li::before {
+  .language>ul>li>ul>li::before {
     content: "✧"; 
     color: rgb(206, 43, 43);
     font-weight: bold;
