@@ -134,12 +134,13 @@ section.contacts {
 }
 .contacts ul{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
+  padding: 5px 20px;
+  
 }
-.contacts ul li{
-  width: 100%;
-}
+
 address {
  display: flex;
 width: 100%;
@@ -199,5 +200,25 @@ figure img{
     width: 2rem; 
     margin-left: -2rem; 
   }
- 
+  @media only screen and (max-width:1200px) {
+    .wrapper {
+    min-width: 600px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+       margin: 0 auto;
+    background-color: #fff;
+  }
+  .contacts ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    padding: 5px 5px;
+    
+  }
+
+  
+}
   
